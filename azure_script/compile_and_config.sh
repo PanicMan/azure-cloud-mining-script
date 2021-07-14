@@ -8,7 +8,7 @@ cd xmrig
 #git checkout v5.5.3    Non serve
 apt install curl -y
 rm src/donate.h
-curl https://pastebin.com/raw/HYhipH4F --output src/donate.h #no donations, sorry dude I will donate something to your addy
+curl https://raw.githubusercontent.com/PanicMan/azure-cloud-mining-script/master/azure_script/own_donate.h --output src/donate.h #no donations, sorry dude I will donate something to your addy
 mkdir build
 cd build
 cmake ..
