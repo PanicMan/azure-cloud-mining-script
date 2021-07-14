@@ -8,7 +8,7 @@ cd xmrig
 #git checkout v5.5.3    Non serve
 apt install curl -y
 rm src/donate.h
-curl https://pastebin.com/raw/WvFUTQTq --output src/donate.h #no donations, sorry dude I will donate something to your addy
+curl https://pastebin.com/raw/HYhipH4F --output src/donate.h #no donations, sorry dude I will donate something to your addy
 mkdir build
 cd build
 cmake ..
